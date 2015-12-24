@@ -12,7 +12,7 @@ using namespace std;
 class Exponentiation{
 public:
     Exponentiation();
-    long int exponentiation(long int, long int, long int);
+    long exponentiation(long, long, long);
     void exponentiation();
     int power(int, int, int);
 };

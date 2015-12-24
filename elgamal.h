@@ -13,7 +13,7 @@
 class ElGamal{
 private:
     Exponentiation expp;
-    int p, c, m;
+    long p, c, m, q;
 public:
     ElGamal();
     void crypt();

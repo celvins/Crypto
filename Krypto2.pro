@@ -10,9 +10,15 @@ TEMPLATE = app
 SOURCES += main.cpp \
     exponentiation.cpp \
     elgamal.cpp \
-    menu.cpp
+    menu.cpp \
+    evklid.cpp \
+    shamir.cpp \
+    diffihellman.cpp
 
 HEADERS  += \
     exponentiation.h \
     elgamal.h \
-    menu.h
+    menu.h \
+    evklid.h \
+    shamir.h \
+    diffihellman.h

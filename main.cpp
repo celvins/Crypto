@@ -8,4 +8,3 @@ int main(int argc, char *argv[])
     menu main_menu;
     return a.exec();
 }
-
