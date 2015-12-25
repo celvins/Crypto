@@ -1,8 +1,31 @@
 #include "evklid.h"
-
+#include <QTime>
+#include <time.h>
 Evklid::Evklid(){
 
 }
+long Evklid::prostoe(){
+        long a;
+//        qsrand(time(NULL) + 1);
+        while(1)
+        {
+            int z=0;
+            a=1+qrand()%50;
+            for(int i=2;i<a;i++)
+            {
+                if(a%i==1)
+                    continue;
+                if(a%i==0)
+                {
+                    z=1;
+                    break;
+                }
+            }
+            if(z==0) break;
+        }
+        return a;
+}
+
 void Evklid::extended_euclid(long a, long b, long *x, long *y, long *d)
     /* вычисление a * *x + b * *y = gcd(a, b) = *d */
     {

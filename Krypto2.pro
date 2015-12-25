@@ -13,7 +13,8 @@ SOURCES += main.cpp \
     menu.cpp \
     evklid.cpp \
     shamir.cpp \
-    diffihellman.cpp
+    diffihellman.cpp \
+    rsa.cpp
 
 HEADERS  += \
     exponentiation.h \
@@ -21,4 +22,5 @@ HEADERS  += \
     menu.h \
     evklid.h \
     shamir.h \
-    diffihellman.h
+    diffihellman.h \
+    rsa.h

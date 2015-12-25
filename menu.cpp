@@ -11,6 +11,7 @@ menu::menu(){
              << "2 - Evklid" << endl
              << "3 - Shamir" << endl
              << "4- Diffi" << endl
+             << "5- RSA" << endl
              << "10 - exit" << endl;
         cin >> key;
         switch (key){
@@ -28,6 +29,9 @@ menu::menu(){
                 break;
             case 4:
                 diffi = new DiffiHellman();
+                break;
+            case 5:
+                rsa = new RSA();
                 break;
             case 10:
                 cout << "exit";

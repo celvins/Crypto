@@ -11,6 +11,7 @@ public:
     int evk(int, int);
     void extended_euclid(long, long, long *, long *, long *);
     long inverse(long, long);
+    long prostoe();
 
 };
 #endif // EVKLID_H

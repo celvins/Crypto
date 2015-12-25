@@ -5,6 +5,7 @@
 #include "evklid.h"
 #include "shamir.h"
 #include "diffihellman.h"
+#include "rsa.h"
 class menu{
 private:
     int key;
@@ -13,6 +14,7 @@ private:
     Evklid evklid;
     Shamir * shamir;
     DiffiHellman * diffi;
+    RSA * rsa;
 public:
     menu();
     ~menu();
